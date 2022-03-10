@@ -8,3 +8,7 @@
 * Tree.rb : Add "initialize" and "build_tree" methods and create Custom Error Class that inherits from TypeError.
 * Node.rb : Add "initialize" method which consists of att "data", "left" and "right".
 ---
+10/3/2022
+* Sucessful in creating basics binary search tree with supply from array.
+* Add 'insert' and 'delete' methods in Tree.rb
+---

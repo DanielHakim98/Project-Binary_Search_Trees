@@ -7,11 +7,18 @@ class Tree
 
   def build_tree(arr)
     return nil if !arr.any?
+    arr = arr.sort.uniq
     mid = arr.length/2
     root = Node.new(arr[mid])
     root.left = build_tree(arr[0,mid])
     root.right = build_tree(arr[mid+1..-1])
     return root
+  end
+
+  def insert(in_val)
+  end
+
+  def delete(out_val)
   end
 
   def pretty_print(node = @root, prefix = '', is_left = true)

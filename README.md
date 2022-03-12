@@ -12,3 +12,7 @@
 * Sucessful in creating basics binary search tree with supply from array.
 * Add 'insert' and 'delete' methods in Tree.rb
 ---
+12/3/2022
+* Recreating algorithm for 'insert' and 'delete' methods, based on Binary Search Tree article by GeeksforGeeks.
+* Add all remaining methods with empty body.
+---

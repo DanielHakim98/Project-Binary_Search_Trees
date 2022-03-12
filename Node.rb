@@ -2,8 +2,7 @@ module Comparable
 end
 
 class Node
-  attr_reader :data
-  attr_accessor :left,:right
+  attr_accessor :left,:right, :data
   def initialize(data=nil,left=nil,right=nil)
     @data = data
     @left =left
